@@ -72,8 +72,6 @@ The arm uses two rotational joints and ball bearing interfaces at each joint for
 | Turning mechanism | Rear steering assembly | Teammate |
 | Arm | 2-DOF articulated arm with bearings | Teammate |
 | Claw | End effector for rock sample retrieval | Teammate |
-| Electronics | Arduino, motor drivers, battery, camera | Electrical subteam |
-| Autonomy | Navigation and control software | Software subteam |
 
 ---
 
