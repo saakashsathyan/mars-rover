@@ -1,7 +1,7 @@
 # SEDS @ UCI — Autonomous Mars Rover
 
 **Organization:** Students for the Exploration and Development of Space, UC Irvine  
-**Role:** Fabrication Subteam — Mechanical Design & Assembly
+**Role:** Fabrication Subteam — Mechanical Design & Assembly  
 **Status:** In Progress — CAD nearly complete, fabrication upcoming  
 **Timeline:** November 2025 – Present
 
