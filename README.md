@@ -100,6 +100,7 @@ Full assembly CAD will be completed before fabrication begins. Updated renders w
 - [x] Chassis CAD model
 - [x] Turning mechanism integration
 - [ ] Arm and claw integration into full assembly
+- [ ] Electronics integration into full assembly
 - [ ] Final assembly render
 - [ ] Fabrication — chassis
 - [ ] Fabrication — 3D printed components
