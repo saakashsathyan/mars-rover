@@ -31,7 +31,7 @@ The project spans four subteams: fabrication, electrical, software, and document
 ### System Concept Sketch
 *Initial sketch of the full rover — brainstormed as a team, drawn by me.*
 
-The sketch defines the core architecture: a two-deck chassis housing electronics between the decks, four driven wheels with motors, a front-facing camera, a two-link arm with rotational joints, and a claw end effector for sample retrieval.
+The sketch defines the core architecture: a two-deck chassis housing electronics between the decks, four driven wheels with motors, a front-facing camera, a two-link arm with rotational joints, and a claw for sample retrieval.
 
 ![Rover concept sketch](sketch-overview.png)
 
@@ -40,7 +40,7 @@ The sketch defines the core architecture: a two-deck chassis housing electronics
 ### Electronics Bay Layout
 *Top-down layout of the lower deck electronics bay — drawn to scale (1 box = 1 cm) on a 30 × 20 cm chassis footprint.*
 
-This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam. This drawing was created prior to the design and implementation of the turning mechanism.
+This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam. Upon receiving the parts list, we learned that we were limited to two motors, therefore switching from an all wheel drive system to a rear wheel drive system. Additionally, this drawing was created prior to the design and implementation of the turning mechanism.
 
 ![Electronics bay layout](sketch-electronics.png)
 
