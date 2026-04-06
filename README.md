@@ -1,8 +1,8 @@
 # SEDS @ UCI — Autonomous Mars Rover
 
 **Organization:** Students for the Exploration and Development of Space, UC Irvine  
-**Role:** Fabrication Subteam — Mechanical Design & Assembly  
-**Status:** In Progress — CAD complete, fabrication upcoming  
+**Role:** Fabrication Subteam — Mechanical Design & Assembly
+**Status:** In Progress — CAD nearly complete, fabrication upcoming  
 **Timeline:** November 2025 – Present
 
 ---
@@ -11,7 +11,7 @@
 
 SEDS @ UCI's rover project gives undergraduate engineering students hands-on project team experience before joining competitive organizations like FSAE or rocketry teams. The mission: design, fabricate, assemble, and program a fully autonomous rover capable of traversing uneven terrain (grass and dirt), locating a rock sample, picking it up with a claw mechanism, storing it on board, and returning to the starting point — all without human input.
 
-The project spans four subteams: fabrication, electrical, software, and documentation. I work on the fabrication subteam, responsible for the design and fabrication of the physical structure of the rover and the integration of all mechanical subsystems.
+The project spans four subteams: fabrication, electrical, software, and documentation. I work on the fabrication subteam for the rover named Prometheus, where I am responsible for the design and fabrication of the physical structure of the rover and the integration of all mechanical subsystems.
 
 ---
 
