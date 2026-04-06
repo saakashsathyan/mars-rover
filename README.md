@@ -33,7 +33,7 @@ The project spans four subteams: fabrication, electrical, software, and document
 
 The sketch defines the core architecture: a two-deck chassis housing electronics between the decks, four driven wheels with motors, a front-facing camera, a two-link arm with rotational joints, and a claw end effector for sample retrieval.
 
-![Rover concept sketch](images/sketch-overview.png)
+![Rover concept sketch](sketch-overview.png)
 
 ---
 
@@ -42,7 +42,7 @@ The sketch defines the core architecture: a two-deck chassis housing electronics
 
 This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam.
 
-![Electronics bay layout](images/sketch-electronics.png)
+![Electronics bay layout](sketch-electronics.png)
 
 ---
 
@@ -51,7 +51,7 @@ This drawing maps the placement of the Arduino, motor driver shield, dual breadb
 
 The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the rear and was modeled separately by a teammate — I integrated it into the assembly and resolved the interface geometry.
 
-![Chassis CAD model](images/cad-chassis.png)
+![Chassis CAD model](cad-chassis.png)
 
 ---
 
@@ -60,7 +60,7 @@ The chassis features a two-deck platform supported by a structural frame, with m
 
 The arm uses two rotational joints and ball bearing interfaces at each joint for smooth actuation. It will mount to the upper deck of the chassis and extend forward to position the claw for sample retrieval. Integration into the full assembly is in progress.
 
-![Arm CAD model](images/cad-arm.png)
+![Arm CAD model](cad-arm.png)
 
 ---
 
