@@ -40,7 +40,7 @@ The sketch defines the core architecture: a two-deck chassis housing electronics
 ### Electronics Bay Layout
 *Top-down layout of the lower deck electronics bay — drawn to scale (1 box = 1 cm) on a 30 × 20 cm chassis footprint.*
 
-This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam.
+This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam. This drawing was created prior to the design and implementation of the turning mechanism.
 
 ![Electronics bay layout](sketch-electronics.png)
 
@@ -49,7 +49,7 @@ This drawing maps the placement of the Arduino, motor driver shield, dual breadb
 ### Chassis CAD Assembly
 *SolidWorks model of the chassis — modeled by me. Turning mechanism integrated from teammate's model.*
 
-The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the rear and was modeled separately by a teammate — I integrated it into the assembly and resolved the interface geometry.
+The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate — I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
 
 ![Chassis CAD model](cad-chassis.png)
 
