@@ -21,7 +21,10 @@ The project spans four subteams: fabrication, electrical, software, and document
 - Produced a scaled layout drawing of the electronics bay, mapping component placement between the upper and lower decks of the chassis
 - Modeled the full chassis assembly in SolidWorks, including the dual-deck structure, frame, wheels, and motor mounts
 - Integrated the turning mechanism (modeled by a teammate) into the chassis assembly
-- Responsible for assembling the arm and claw subassemblies into the full rover model as CAD progresses
+- Integrated the arm subassembly (modeled by a teammate) into the chassis assembly
+- Rendered the rover model with accurate appearances relating to materials to be used
+- Responsible for assembling the claw subassembly into the full rover model as CAD progresses
+- Responsible for updating full rover model render as CAD progresses
 - Evaluating material options and fabrication methods — chassis will be built from plywood, arm and claw components will be FDM 3D printed
 
 ---
