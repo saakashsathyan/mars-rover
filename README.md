@@ -67,7 +67,7 @@ The arm uses two rotational joints and ball bearing interfaces at each joint for
 ### Arm + Chassis CAD Assembly
 *SolidWorks model of the arm + chassis — assembled by me.*
 
-The arm sits atop the chassis towards the rear for weight distribution and stability. The claw will extend from the rear of the rover for maximum length allowance.
+The arm sits atop the chassis towards the rear for weight distribution and stability. The claw will extend from the rear of the rover for maximum length allowance. Claw integration into assembly in progress.
 
 ![Arm + Chassis CAD model](cad-arm+chassis.png)
 
