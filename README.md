@@ -55,12 +55,39 @@ The chassis features a two-deck platform supported by a structural frame, with m
 
 ---
 
-### Arm Assembly
+### Arm CAD Assembly
 *SolidWorks model of the two-DOF arm — modeled by teammate, to be integrated into chassis assembly by me.*
 
-The arm uses two rotational joints and ball bearing interfaces at each joint for smooth actuation. It will mount to the upper deck of the chassis and extend forward to position the claw for sample retrieval. Integration into the full assembly is in progress.
+The arm uses two rotational joints and ball bearing interfaces at each joint for smooth actuation. It will mount to the upper deck of the chassis and extend forward to position the claw for sample retrieval.
 
 ![Arm CAD model](cad-arm.png)
+
+---
+
+### Arm + Chassis CAD Assembly
+*SolidWorks model of the arm + chassis — assembled by me.*
+
+The arm sits atop the chassis towards the rear for weight distribution and stability. The claw will extend from the rear of the rover for maximum length allowance.
+
+![Arm + Chassis CAD model](cad-arm+chassis.png)
+
+---
+
+### Arm + Chassis Assembly Render
+*SolidWorks Visualizer render of the arm + chassis — created by me.*
+
+A render of the arm and chassis assembly utilizing appearances corresponding to materials used and contributions by peers.
+
+| Parts/Subsystem | Material |
+|---|---|
+| Upper/Lower decks | Birch baltic plywood |
+| Support pillars | Copper |
+| Wheels | Plastic + Silicone |
+| Motors | Metal |
+| Turning mechanism | 3D Printed |
+| Arm assembly | 3D Printed |
+
+![Arm + Chassis Assembly Render](render-arm+chassis.png)
 
 ---
 
