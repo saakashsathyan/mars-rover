@@ -36,7 +36,7 @@ The project spans four subteams: fabrication, electrical, software, and document
 
 The sketch defines the core architecture: a two-deck chassis housing electronics between the decks, four driven wheels with motors, a front-facing camera, a two-link arm with rotational joints, and a claw for sample retrieval.
 
-![Rover concept sketch](sketch-overview.png)
+![Rover concept sketch](images/sketch-overview.png)
 
 ---
 
@@ -45,7 +45,7 @@ The sketch defines the core architecture: a two-deck chassis housing electronics
 
 This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam. Upon receiving the parts list, we learned that we were limited to two motors, therefore switching from an all wheel drive system to a rear wheel drive system. Additionally, this drawing was created prior to the design and implementation of the turning mechanism.
 
-![Electronics bay layout](sketch-electronics.png)
+![Electronics bay layout](images/sketch-electronics.png)
 
 ---
 
@@ -54,7 +54,7 @@ This drawing maps the placement of the Arduino, motor driver shield, dual breadb
 
 The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate – I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
 
-![Chassis CAD model](cad-chassis.png)
+![Chassis CAD model](images/cad-chassis.png)
 
 ---
 
@@ -63,7 +63,7 @@ The chassis features a two-deck platform supported by a structural frame, with m
 
 The arm uses two rotational joints and ball bearing interfaces at each joint for smooth actuation. It will mount to the upper deck of the chassis and extend forward to position the claw for sample retrieval.
 
-![Arm CAD model](cad-arm.png)
+![Arm CAD model](images/cad-arm.png)
 
 ---
 
@@ -72,7 +72,7 @@ The arm uses two rotational joints and ball bearing interfaces at each joint for
 
 The arm sits atop the chassis towards the rear for weight distribution and stability. The claw will extend from the rear of the rover for maximum length allowance. Claw integration into assembly in progress.
 
-![Arm + Chassis CAD model](cad-arm+chassis.png)
+![Arm + Chassis CAD model](images/cad-arm+chassis.png)
 
 ---
 
@@ -90,7 +90,7 @@ A render of the arm and chassis assembly utilizing appearances corresponding to 
 | Turning mechanism | 3D Printed |
 | Arm assembly | 3D Printed |
 
-![Arm + Chassis Assembly Render](render-arm+chassis.png)
+![Arm + Chassis Assembly Render](images/render-arm+chassis.png)
 
 ---
 
