@@ -1,15 +1,15 @@
-# SEDS @ UCI — Autonomous Mars Rover
+# SEDS @ UCI – Autonomous Mars Rover
 
 **Organization:** Students for the Exploration and Development of Space, UC Irvine  
-**Role:** Fabrication Subteam — Mechanical Design & Assembly  
-**Status:** In Progress — CAD nearly complete, fabrication upcoming  
-**Timeline:** November 2025 – Present
+**Role:** Fabrication Subteam – Mechanical Design & Assembly  
+**Status:** In Progress – CAD nearly complete, fabrication upcoming  
+**Timeline:** November 2025 - Present
 
 ---
 
 ## Project Overview
 
-SEDS @ UCI's rover project gives undergraduate engineering students hands-on project team experience. The mission: design, fabricate, assemble, and program a fully autonomous rover capable of traversing uneven terrain (grass and dirt), locating a rock sample, picking it up with a claw mechanism, storing it on board, and returning to the starting point — all without human input.
+SEDS @ UCI's rover project gives undergraduate engineering students hands-on project team experience. The mission: design, fabricate, assemble, and program a fully autonomous rover capable of traversing uneven terrain (grass and dirt), locating a rock sample, picking it up with a claw mechanism, storing it on board, and returning to the starting point – all without human input.
 
 The project spans four subteams: fabrication, electrical, software, and documentation. I work on the fabrication subteam for the rover named Prometheus, where I am responsible for the design and fabrication of the physical structure of the rover and the integration of all mechanical subsystems.
 
@@ -25,14 +25,14 @@ The project spans four subteams: fabrication, electrical, software, and document
 - Rendered the rover model with accurate appearances relating to materials to be used
 - Responsible for assembling the claw subassembly into the full rover model as CAD progresses
 - Responsible for updating full rover model render as CAD progresses
-- Evaluating material options and fabrication methods — chassis will be built from plywood, arm and claw components will be FDM 3D printed
+- Evaluating material options and fabrication methods – chassis will be built from plywood, arm and claw components will be FDM 3D printed
 
 ---
 
 ## Design Process
 
 ### System Concept Sketch
-*Initial sketch of the full rover — brainstormed as a team, drawn by me.*
+*Initial sketch of the full rover – brainstormed as a team, drawn by me.*
 
 The sketch defines the core architecture: a two-deck chassis housing electronics between the decks, four driven wheels with motors, a front-facing camera, a two-link arm with rotational joints, and a claw for sample retrieval.
 
@@ -41,7 +41,7 @@ The sketch defines the core architecture: a two-deck chassis housing electronics
 ---
 
 ### Electronics Bay Layout
-*Top-down layout of the lower deck electronics bay — drawn to scale (1 box = 1 cm) on a 30 × 20 cm chassis footprint.*
+*Top-down layout of the lower deck electronics bay – drawn to scale (1 box = 1 cm) on a 30 × 20 cm chassis footprint.*
 
 This drawing maps the placement of the Arduino, motor driver shield, dual breadboards, battery pack, motors, and camera within the constrained space between decks. The goal was to confirm all components fit within the chassis footprint before committing to CAD, and to communicate the layout clearly to the electrical subteam. Upon receiving the parts list, we learned that we were limited to two motors, therefore switching from an all wheel drive system to a rear wheel drive system. Additionally, this drawing was created prior to the design and implementation of the turning mechanism.
 
@@ -50,16 +50,16 @@ This drawing maps the placement of the Arduino, motor driver shield, dual breadb
 ---
 
 ### Chassis CAD Assembly
-*SolidWorks model of the chassis — modeled by me. Turning mechanism integrated from teammate's model.*
+*SolidWorks model of the chassis – modeled by me. Turning mechanism integrated from teammate's model.*
 
-The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate — I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
+The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate – I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
 
 ![Chassis CAD model](cad-chassis.png)
 
 ---
 
 ### Arm CAD Assembly
-*SolidWorks model of the two-DOF arm — modeled by teammate, to be integrated into chassis assembly by me.*
+*SolidWorks model of the two-DOF arm – modeled by teammate, to be integrated into chassis assembly by me.*
 
 The arm uses two rotational joints and ball bearing interfaces at each joint for smooth actuation. It will mount to the upper deck of the chassis and extend forward to position the claw for sample retrieval.
 
@@ -68,7 +68,7 @@ The arm uses two rotational joints and ball bearing interfaces at each joint for
 ---
 
 ### Arm + Chassis CAD Assembly
-*SolidWorks model of the arm + chassis — assembled by me.*
+*SolidWorks model of the arm + chassis – assembled by me.*
 
 The arm sits atop the chassis towards the rear for weight distribution and stability. The claw will extend from the rear of the rover for maximum length allowance. Claw integration into assembly in progress.
 
@@ -77,7 +77,7 @@ The arm sits atop the chassis towards the rear for weight distribution and stabi
 ---
 
 ### Arm + Chassis Assembly Render
-*SolidWorks Visualizer render of the arm + chassis — created by me.*
+*SolidWorks Visualizer render of the arm + chassis – created by me.*
 
 A render of the arm and chassis assembly utilizing appearances corresponding to materials used and contributions by peers.
 
@@ -107,8 +107,8 @@ A render of the arm and chassis assembly utilizing appearances corresponding to 
 
 ## Fabrication Plan
 
-- **Chassis decks and frame:** Plywood — lightweight, easy to cut and drill, low cost for prototyping
-- **Arm and claw:** FDM 3D printed — allows complex geometry, easy iteration
+- **Chassis decks and frame:** Plywood – lightweight, easy to cut and drill, low cost for prototyping
+- **Arm and claw:** FDM 3D printed – allows complex geometry, easy iteration
 - **Fasteners and hardware:** Off-the-shelf bolts, standoffs, and bearings
 
 Full assembly CAD will be completed before fabrication begins. Updated renders will be added here once the complete rover model is finished.
@@ -130,6 +130,6 @@ Full assembly CAD will be completed before fabrication begins. Updated renders w
 - [ ] Arm and claw integration into full assembly
 - [ ] Electronics integration into full assembly
 - [ ] Final assembly render
-- [ ] Fabrication — chassis
-- [ ] Fabrication — 3D printed components
+- [x] Fabrication — chassis
+- [x] Fabrication — 3D printed components
 - [ ] Full rover assembly and testing
