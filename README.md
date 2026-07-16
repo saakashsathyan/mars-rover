@@ -3,7 +3,7 @@
 **Organization:** Students for the Exploration and Development of Space, UC Irvine  
 **Role:** Fabrication Subteam – Mechanical Design & Assembly  
 **Status:** In Progress – CAD nearly complete, fabrication upcoming  
-**Timeline:** November 2025 - Present
+**Timeline:** November 2025 - Present (on hold till Fall 2026)
 
 ---
 
