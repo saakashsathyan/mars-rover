@@ -2,16 +2,16 @@
 
 **Organization:** Students for the Exploration and Development of Space, UC Irvine  
 **Role:** Fabrication Subteam – Mechanical Design & Assembly  
-**Status:** In Progress – CAD nearly complete, fabrication upcoming  
-**Timeline:** November 2025 - Present (on hold till Fall 2026)
+**Status:** Discontinued – CAD, design, and component fabrication complete; assembly not initated.  
+**Timeline:** November 2025 - June 2026
 
 ---
 
 ## Project Overview
 
-SEDS @ UCI's rover project gives undergraduate engineering students hands-on project team experience. The mission: design, fabricate, assemble, and program a fully autonomous rover capable of traversing uneven terrain (grass and dirt), locating a rock sample, picking it up with a claw mechanism, storing it on board, and returning to the starting point – all without human input.
+SEDS @ UCI's rover project gave undergraduate engineering students hands-on project team experience. The mission: design, fabricate, assemble, and program a fully autonomous rover capable of traversing uneven terrain (grass and dirt), locating a rock sample, picking it up with a claw mechanism, storing it on board, and returning to the starting point – all without human input.
 
-The project spans four subteams: fabrication, electrical, software, and documentation. I work on the fabrication subteam for the rover named Prometheus, where I am responsible for the design and fabrication of the physical structure of the rover and the integration of all mechanical subsystems.
+The project spanned four subteams: fabrication, electrical, software, and documentation. I worked on the fabrication subteam for the rover named Prometheus, where I was responsible for the design and fabrication of the physical structure of the rover and the integration of all mechanical subsystems.
 
 ---
 
@@ -23,9 +23,9 @@ The project spans four subteams: fabrication, electrical, software, and document
 - Integrated the turning mechanism (modeled by a teammate) into the chassis assembly
 - Integrated the arm subassembly (modeled by a teammate) into the chassis assembly
 - Rendered the rover model with accurate appearances relating to materials to be used
-- Responsible for assembling the claw subassembly into the full rover model as CAD progresses
-- Responsible for updating full rover model render as CAD progresses
-- Evaluating material options and fabrication methods – chassis will be built from plywood, arm and claw components will be FDM 3D printed
+- Assembled the claw subassembly into the full rover CAD model
+- Updated full rover model render as CAD progressed
+- Evaluated material options and fabrication methods – chassis was built from plywood, arm and claw components were FDM 3D printed
 
 ---
 
@@ -52,7 +52,7 @@ This drawing maps the placement of the Arduino, motor driver shield, dual breadb
 ### Chassis CAD Assembly
 *SolidWorks model of the chassis – modeled by me. Turning mechanism integrated from teammate's model.*
 
-The chassis features a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate – I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
+The chassis featured a two-deck platform supported by a structural frame, with motor mounts and wheel hubs positioned for the four-wheel drive configuration. The turning mechanism is mounted at the front and was modeled separately by a teammate – I integrated it into the assembly and resolved the interface geometry. The electronic components will be shifted around to accommodate the turning mechanism.
 
 ![Chassis CAD model](images/cad-chassis.png)
 
@@ -117,19 +117,17 @@ Full assembly CAD will be completed before fabrication begins. Updated renders w
 
 ## Tools & Skills Used
 
-`SolidWorks` `Parametric Modeling` `Assembly Design` `GD&T` `FDM 3D Printing` `Technical Sketching` `Cross-disciplinary Coordination` `Design Review`
+`SolidWorks` `OnShape` `Parametric Modeling` `Assembly Design` `GD&T` `FDM 3D Printing` `Technical Sketching` `Cross-disciplinary Coordination` `Design Review`
 
 ---
 
-## Status & Next Steps
+## Status
 
 - [x] System concept sketches
 - [x] Electronics bay layout
 - [x] Chassis CAD model
 - [x] Turning mechanism integration
-- [ ] Arm and claw integration into full assembly
-- [ ] Electronics integration into full assembly
-- [ ] Final assembly render
+- [x] Arm and claw integration into full assembly
+- [x] Final assembly render
 - [x] Fabrication — chassis
 - [x] Fabrication — 3D printed components
-- [ ] Full rover assembly and testing
